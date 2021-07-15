@@ -1,0 +1,68 @@
+*{
+    padding :0px;
+    margin :0px;
+    box-sizing:  border-box;
+}
+html,body{
+    list-style-type: none;
+    font-family:sans-serif;
+    background-image: url('mari-potter-YNUpQ2wAUOU-unsplash.jpg');
+    
+}
+#header{
+    height:100px;
+    width:100%;
+}
+content{
+    
+    background-size:cover;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:90%;
+    width:100%;
+}
+ .avatar {
+     justify-content: center;
+     margin-top:40px;
+     background-color: antiquewhite;
+     
+ }
+ .information  {
+     list-style-type: none;
+     display: flex;
+     flex-direction:column;
+ }
+ .information a{
+     border-radius: 20px;
+     text-align:center;
+     line-height: 60px;
+     margin-bottom: 20px;
+     border: 1px solid white;
+ }
+ a{
+    line-height:60px;
+    width:30rem;
+    color: aliceblue;
+    text-decoration: none;
+ }
+ .information .bi{
+font-size:20px;
+ }
+ .information a:hover {
+    background-color:antiquewhite;
+    color: black;
+ }
+ .avarta{
+     flex-direction: column;
+ }
+ .avarta img{
+     margin-bottom: 20px;
+     border-radius: 100px;
+     width:200px;
+     height:200px;
+     background-color:black;
+ }
+
